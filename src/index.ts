@@ -1,9 +1,9 @@
-const express = require('express');
-const morgan = require('morgan');
+import express from 'express';
+import morgan from 'morgan';
+import routes from './routes';
+
 const app = express();
 const port = 3003;
-
-const routes = require('./routes');
 
 app.use(
   express.urlencoded({

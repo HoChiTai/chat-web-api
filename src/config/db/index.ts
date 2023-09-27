@@ -1,4 +1,4 @@
-const mysql = require('mysql');
+import mysql from 'mysql';
 
 const connection = mysql.createPool({
   host: 'localhost',
@@ -6,6 +6,5 @@ const connection = mysql.createPool({
   password: '',
   database: 'chat-web',
 });
-console.log('Connect successfully!');
 
-module.exports = connection;
+export default connection;
