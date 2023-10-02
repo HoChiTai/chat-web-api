@@ -4,7 +4,7 @@ import usersRouter from './users';
 
 function routes(app: Express) {
   app.use('/api/users', usersRouter);
-  app.use('/api/message', messageRouter);
+  app.use('/api/messages', messageRouter);
 }
 
 export default routes;

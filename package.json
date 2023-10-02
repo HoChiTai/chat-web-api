@@ -15,6 +15,7 @@
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
     "mysql": "^2.18.1",
+    "socket.io": "^4.7.2",
     "xssfilter": "^0.5.3"
   },
   "devDependencies": {

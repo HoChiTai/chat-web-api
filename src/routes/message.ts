@@ -3,6 +3,6 @@ import MessageController from '../app/controllers/MessageController';
 
 const router = Router();
 
-router.get('/', MessageController.index);
+router.post('/dialog', MessageController.dialog);
 
 export default router;
